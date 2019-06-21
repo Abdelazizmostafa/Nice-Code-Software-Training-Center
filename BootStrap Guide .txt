@@ -1,0 +1,39 @@
+#Grid System:
+------------
+Consists of 12 Column and responsive  automatically depending on screen size .
+
+#Grid System Classes:
+-------------------
+1-large  Screen  ===> col-lg     Ex. col-lg-3 , col-lg-4 
+2-Meduim Screen  ===> col-md     Ex. col-md-3 , col-md-4
+3-Small  Screen  ===> col-sm     Ex. col-sm-3 , col-sm-4
+4-Extra small Screen ===>col-xs  Ex. col-xs-3 , col-xs-4
+
+#Grid System Column Reset:
+-------------------------
+Class ====> Clearfix 
+
+#Grid System:
+-----------
+visible ====> visible-lg , visible-md  , visible-sm , visible-xs 
+Hidden  ====> hidden-lg  , hidden-md   , hidden-sm  , hidden-xs
+
+#Grid System Offset:
+--------------------
+ 1- col-lg-offset-3
+ 2- col-md-offset-3
+ 3- col-sm-offset-3
+ 4- col-xs-offset-3
+
+#Grid System column ordering :
+------------------------------
+1-Push =====> col-lg-push-4
+2-Pull =====> col-lg-pull-8
+
+
+#Grid System Nesting:
+---------------------
+ Paragraph class =====>[lead]
+ image Class     =====>[img-responsive]
+ Position Class  =====>[center-block]
+

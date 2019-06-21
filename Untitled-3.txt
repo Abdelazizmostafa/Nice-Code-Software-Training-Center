@@ -1,0 +1,7 @@
+fonts:
+-Lora
+-PT Sans
+=============================
+Color Replaced ===>#8A2235
+==============================
+background: linear-gradient(to right, #7250d5 0%, #aa47a5 50%, #f43a67 99%);
