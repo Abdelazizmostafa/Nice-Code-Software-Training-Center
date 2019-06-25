@@ -98,8 +98,8 @@ height: 13px;
 /*=========Starting About Section=============*/
 .about{
 color: #756f6f;    
-padding-top: 60px;
-padding-bottom: 60px;    
+padding-top: 30px;
+padding-bottom: 50px;    
 }
 .about span {
 color: #deb80d;
@@ -162,7 +162,7 @@ font-weight: normal;
 /*=============Ending About Section=============*/
 /*============Starting Features Scetion==========*/
 .features{
-padding-top: 30px;
+padding-top: 20px;
 padding-bottom: 50px;
 background-color: #fbfbfb;    
 }
@@ -192,7 +192,7 @@ line-height: 2.4rem;
 /*=========Starting Testimonials================*/
 .Testimonials{
 padding-bottom: 50px;
-padding-top: 50px;
+padding-top: 20px;
 background-color: #EEEEEE;    
 }
 .Testimonials h2{
@@ -242,9 +242,10 @@ max-width: 100%;
 /*=============Starting Prices==================*/
 .price-table{
 text-align: center;
+padding-top:20px;    
 }
 .price-table h2{
-margin-bottom:30px;
+margin-bottom:20px;
 font-weight: 600;
 color: #756f6f;
 font-size: 35px;  
@@ -256,11 +257,12 @@ box-shadow: -1px 4px 16px 0px rgba(0,0,0,0.17);
 border-radius: 5px;
 text-align: center;
 margin-bottom: 20px;
+
 }
 .price-table .content h3 {
 font-weight: 600;
 font-size: 20px;   
-padding-top: 25px;    
+padding-top: 23px;    
 }
 .price-table .content .cover {
  width: 100%;
@@ -413,6 +415,164 @@ font-weight: 600;
 .our-team .member .item:hover .c-overlay{
 display: block;
 }
-/*===============Ending Team====================*/
+/*===============Ending Team=====================*/
+/*===============starting Newsletter=============*/
+.Newsletter{
+background-color: #EEEEEE;    
+min-height: 300px;
+}
+.Newsletter h2 {
+text-align: center;
+padding-top:20px;    
+margin-bottom: 20px;
+font-weight: 600;    
+color: #756f6f;
+font-size: 35px;  
+}
+.Newsletter p {
+font-size: 24px;
+letter-spacing:1px;
+margin-bottom: 50px;
+color: #756f6f;
+}
+.Newsletter .box {
+width: 600px;
+height: 40px;    
+margin: auto;
+display: flex;
+background-color: white; 
+}
+.Newsletter .box i {
+flex: 1;
+margin-top: 5px;
+height: 100%;
+color:#DEB80D;
+}
+.Newsletter .box input{
+height: 100%;
+flex: 6;
+border: none; 
+border-left: 2px solid #888;
+padding: 15px;
+font-size:18px;
+font-weight:lighter;    
+}
+.Newsletter .box button{
+float: right;
+height: 100%;
+flex: 2;
+border: none;
+background-color:#DEB80D;    
+font-size: 20px;
+color: white;
+}
+/*===============Ending Newsletter===============*/
+/*===============starting statistics=============*/
+.statistics {
+background:url('../images/stats.jpg') no-repeat center center fixed;
+min-height:300px;
+} 
+.statistics .stat-cover{
+background: rgba(2,2,2,.8);
+color:#B6B5B5;
+min-height:300px;
+padding-top:20px;
+padding-bottom:60px    
+}
+.statistics .stat-cover h2{
+text-align: center;
+margin-bottom: 40px;
+font-weight: 600;    
+font-size: 35px;
+}
+.statistics .stats {margin-bottom:30px}
+
+.statistics .stats:hover {color:#FFF}
+
+.statistics p {font-size:60px;font-weight:800;margin-bottom:0}
+
+.statistics span {font-size:20px;letter-spacing: 1px;}
+/*===============Ending statistics===============*/
+/*===============Starting Skills=================*/
+.skills{
+padding-bottom: 60px;
+padding-top: 20px; 
+}
+.skills h2{
+margin-bottom:20px;
+font-weight: 600;
+font-size: 35px;
+text-align: center;
+}
+.skills h3{
+font-weight:bold;
+margin-top:0
+}
+.skills .progress {height:36px}
+
+.skills .progress-bar {
+line-height:36px;
+font-size:15px;
+font-weight:bold;
+text-align:left;
+text-indent:10px;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============Ending Skills===================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+/*========Mifiying code===========*/
+.our-team,
+.statistics,
+.contact-us {
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+}
+
+
+
+
+/*=============End================*/
