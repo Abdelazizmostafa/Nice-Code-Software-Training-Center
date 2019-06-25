@@ -171,7 +171,7 @@ text-align: center;
 margin-bottom: 50px;
 font-weight: 600;    
 color: #756f6f;
-font-size: 40px;     
+font-size: 35px;     
 }
 .features .squre{
 margin-bottom:30px;
@@ -199,7 +199,7 @@ background-color: #EEEEEE;
 margin-bottom:30px;
 font-weight: 600;
 color: #756f6f;
-font-size: 40px;    
+font-size: 35px;    
 }
 .Testimonials .lead {
 line-height:1.5em;
@@ -221,8 +221,8 @@ padding-top:20px;
 }
 .Testimonials .carousel-indicators li{
 text-indent: 0;
-width: 80px;
-height: 80px;
+width: 50px;
+height: 50px;
 border: none;
 opacity: .4;
 border-radius: 50%;
@@ -247,7 +247,7 @@ text-align: center;
 margin-bottom:30px;
 font-weight: 600;
 color: #756f6f;
-font-size: 40px;  
+font-size: 35px;  
 }
 .price-table .content {
 height: 300px;    
@@ -291,6 +291,14 @@ display: block;
 margin: 60px auto;
 text-align: center; 
 }
+.price-table .content .cover .c-overlay button:hover{
+background-color:#DEB80D;       
+color: white;
+border: none;
+border-radius: 20px; 
+font-size: 17px;
+letter-spacing: 1px;
+}
 .price-table .content .cover img {
 width: 100%;
 height: 100%;
@@ -303,29 +311,108 @@ width: 150px;
 }
 /*===============Ending Prices==================*/
 /*===============starting Team==================*/
-.our-team {
-background-image: url(../images/team.jpg);
-min-height:600px;   
+.our-team{
+margin-top: 30px;
+background: url("../images/twitterhead.jpg") no-repeat center center fixed;
+min-height:600px;
 }
-.our-team h2{
+.our-team .team{
+background:rgba(2,2,2,0.6);
+color: white;
+min-height: 600px;
+padding-bottom: 20px;
+padding-top: 20px;    
+}
+.our-team .team h2{
 margin-bottom:20px;
 font-weight: 600;
-color: #756f6f;
-font-size: 40px; 
+font-size: 35px; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.our-team .member {
+height: 350px;    
+background-color:white;
+box-shadow: -1px 4px 16px 0px rgba(0,0,0,0.17);    
+border-radius: 5px;
+text-align: center;
+margin-bottom: 20px;
+border-radius: 10px;    
+}
+ 
+.our-team .member .item {
+ width: 100%;
+ height:300px;
+ background-color: chartreuse;    
+ position: relative;
+margin-top: 40px;
+}
+.our-team .member .item .c-overlay{
+background-color: rgb(0,0,0,.7);
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+display: none;
+border-radius: 10px 10px 0 0;   
+}
+.our-team .member .item .c-overlay button{
+font-size: 16px;
+letter-spacing: 1xp;    
+border: 1px solid #fff;
+background: none;
+color: #fff;    
+width: 180px;
+height: 50px;
+display: block;
+margin: 10px auto;
+text-align: center; 
+}
+.our-team .member .item .c-overlay button:hover{
+background-color:#DEB80D;       
+color: white;
+border: none;
+border-radius: 20px; 
+font-size: 17px;
+letter-spacing: 1px;    
+}
+.our-team .member .item .c-overlay h4{
+margin-top: 20px;
+}
+.our-team .member .item .c-overlay p {
+font-size: 16px;
+letter-spacing: 1xp;
+color: #fff;
+text-align: center;
+font-weight: normal;
+margin-bottom: 5px;
+line-height: 2;
+}
+.our-team .member .item .c-overlay .social-links{
+height: 60px;
+width: 170px;    
+margin: auto;
+margin-top: 10px;    
+}
+.our-team .member .item .c-overlay .social-links i:hover {
+color:#DEB80D;
+cursor: pointer;
+}
+.our-team .member .item img {
+width: 100%;
+height: 100%;
+border-radius: 10px 10px 0 0; 
+}
+.our-team .member .item p {
+margin: 10px;
+color: #DEB80D;
+font-size: 22px;
+font-weight: 600;
+}
+.our-team .member .item:hover .c-overlay{
+display: block;
+}
 /*===============Ending Team====================*/
 
 
