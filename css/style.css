@@ -99,7 +99,8 @@ height: 13px;
 .about{
 color: #756f6f;    
 padding-top: 30px;
-padding-bottom: 50px;    
+padding-bottom: 50px; 
+margin-top: 20px;    
 }
 .about span {
 color: #deb80d;
@@ -435,32 +436,16 @@ letter-spacing:1px;
 margin-bottom: 50px;
 color: #756f6f;
 }
-.Newsletter .box {
-width: 600px;
-height: 40px;    
-margin: auto;
-display: flex;
-background-color: white; 
+.Newsletter .form-control {
+border-radius:0;
+margin-right:-5px;
+width:300px;
 }
-.Newsletter .box i {
-flex: 1;
-margin-top: 5px;
-height: 100%;
-color:#DEB80D;
+
+.Newsletter button {
+border-radius:0;
 }
-.Newsletter .box input{
-height: 100%;
-flex: 6;
-border: none; 
-border-left: 2px solid #888;
-padding: 15px;
-font-size:18px;
-font-weight:lighter;    
-}
-.Newsletter .box button{
-float: right;
-height: 100%;
-flex: 2;
+.Newsletter .form-inline button{
 border: none;
 background-color:#DEB80D;    
 font-size: 20px;
@@ -517,28 +502,55 @@ font-weight:bold;
 text-align:left;
 text-indent:10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*===============Ending Skills===================*/
-
-
-
-
-
+/*===============starting contact us===================*/
+.contact-us{
+margin-top: 30px;
+background: url("../images/contact-us.jpg") no-repeat center center fixed;
+min-height:400px;
+}
+.contact-us .con-box {
+background:rgba(2,2,2,0.7);
+min-height: 400px;
+padding-bottom: 20px;
+padding-top: 20px; 
+color: #ddd;    
+}
+.contact-us .con-box h2{
+font-weight: 600;
+font-size: 35px;
+}
+.contact-us .con-box p{
+letter-spacing: 1px;
+margin-bottom: 40px;    
+}
+.contact-us textarea {height:108px}
+.contact-us input[type="text"],
+.contact-us textarea{
+background:rgba(82,78,78,0.5);
+color:#FFF;
+border:none
+}
+.contact-us button {
+background-color:#DEB80D;
+border: none;
+font-size: 20px;
+letter-spacing: 1px;    
+}
+/*===============Ending Contact us===================*/
+/*===============starting Our Clients===================*/
+.clients {
+background:#EEE;
+padding-top:20px;
+padding-bottom:20px;
+}
+.clients img {
+opacity:0.4;
+margin-top:20px;
+margin-bottom:20px;
+}
+.clients img:hover {opacity:1}
+/*===============Ending  Our Clients===================*/
 
 
 
@@ -565,7 +577,7 @@ text-indent:10px;
 /*========Mifiying code===========*/
 .our-team,
 .statistics,
-.contact-us {
+.contact-us{
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;

@@ -346,7 +346,7 @@
                             </div>
                             <button>Veiw Profile</button>
                          </div>
-                         <img src="images/team/team-1.jpg" alt="member1"/>
+                         <img  class="img-responsive center-block" src="images/team/team-1.jpg" alt="member1"/>
                          <p class="text-success">Roberto Peo</p>
                        </div> 
                     </div>  
@@ -369,7 +369,7 @@
                             </div>
                             <button>Veiw Profile</button>
                          </div>
-                         <img src="images/team/team-2.jpg" alt="member2"/>
+                         <img class="img-responsive center-block" src="images/team/team-2.jpg" alt="member2"/>
                          <p class="text-primary">Jhon Doe</p>
                        </div> 
                     </div>  
@@ -392,7 +392,7 @@
                             </div>
                             <button>Veiw Profile</button>
                          </div>
-                         <img src="images/team/team-3.jpg" alt="member3"/>
+                         <img class="img-responsive center-block" src="images/team/team-3.jpg" alt="member3"/>
                          <p class="text-primary">Jakia Khan</p>
                        </div> 
                     </div>  
@@ -415,7 +415,7 @@
                             </div>
                             <button>Veiw Profile</button>
                          </div>
-                         <img src="images/team/team-6.png" alt="member4"/>
+                         <img class="img-responsive center-block" src="images/team/team-6.png" alt="member4"/>
                          <p class="text-primary">Jack kalis</p>
                        </div> 
                     </div>  
@@ -429,15 +429,16 @@
 <!--========================End Section Team================================-->        
 <!--========================Start Newsletter================================-->
         
-        <section class="Newsletter text-center">
+     <section class="Newsletter text-center wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
           <div class="container">
              <h2>Newsletter</h2>
              <p>Join Our newsletter and stay updated!</p>
-              <div class="box">
-                <i class="fa fa-envelope fa-2x"></i> 
-                <input id="typename" type="email" name="emai" placeholder="Enter Your Email Address">
-                <button class="">Subscribe</button>
-              </div>
+            <form class="form-inline">
+                <input class="form-control input-lg" type="text" placeholder="Write Your Email">
+                <button class="btn  btn-lg"><i class="fa fa-edit fa-lg"></i> Subscribe</button>
+            </form>
+  
+
           </div>
         </section>
 <!--========================End Newsletter  ================================-->        
@@ -516,7 +517,7 @@
                     <div class="col-md-6 col-md-offset-1">
                         <div class="skills-info">
                             <h3>About The Team</h3>
-                            <p class="lead">We Are Specialised Desiging And Programming Team Passionate About Web Design And Creatin Digital Ideas We Will Transfer Your Idea To A Digital Dream And Make Your Wish Come True</p>
+                            <p class="lead">We Are Specialised Desiging And Programming Team Passionate About Web Design And Creating Digital Ideas We Will Transfer Your Idea To A Digital Dream And Make Your Wish Come True</p>
                             <button type="button" class="btn btn-primary">Talk With A Professional</button>
                         </div>
                     </div>
@@ -530,6 +531,81 @@
        </section>    
         
 <!--=============================End skills=================================-->        
+<!--=============================start contact us ==========================-->
+      
+    <section class="contact-us text-center">
+       <div class="con-box">
+         <div class="container">
+            <div class="row">
+                <i class="fa fa-headphones fa-5x"></i>
+                <h2 class="h1">Tell Us What You Fell</h2>
+                <p class="lead">Feel Free To Contact Us Anytime</p> 
+                <!--=======Contact Form=======-->
+                <form role="form">
+                     <div class="col-md-6 wow bounceInLeft" data-wow-duration="1s" data-wow-offset="400">
+                        <div class="form-group">
+                           <input type="text" id="username" class="form-control input-lg" placeholder="Enter Your Name" autocomplete="off">    
+                        </div>
+                        <div class="form-group">
+                          <input type="text" id="useremail" class="form-control input-lg" placeholder="Enter Your Email address">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" id="userphone" class="form-control input-lg" placeholder="Enter Your Cell Phone">
+                        </div>
+                     </div>
+                     <div class="col-md-6 wow bounceInRight"  data-wow-duration="1s" data-wow-offset="400">
+                         <div class="form-group">
+                           <textarea  id="userMess" class="form-control input-lg" placeholder="Your Message"></textarea>                         
+                         </div>
+                          <button type="button" class="btn btn-warning btn-lg btn-block">Contact Us</button>
+                     </div>
+                </form>
+            </div>
+         </div> 
+       </div>
+    </section>
+<!--=============================End contact us============================-->        
+<!--=============================start Our Clients==========================-->
+
+  <section class="clients">
+     <div class="container">
+       <div class="row">
+        <ul class="list-unstyled">
+            <li class="col-md-2 col-xs-4">
+                <img class="img-responsive center-block wow bounceIn" src="images/clients/bbc.png" width="126" height="28" alt="BBC" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay=".5s" />
+            </li>
+            <li class="col-md-2 col-xs-4">
+                <img class="img-responsive center-block wow bounceIn" src="images/clients/cnn.png" width="126" height="28" alt="CNN" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1s" />
+            </li>
+            <li class="col-md-2 col-xs-4">
+                <img class="img-responsive center-block wow bounceIn" src="images/clients/forbes.png" width="126" height="28" alt="Forbes" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1.5s" />
+            </li>
+            <li class="col-md-2 col-xs-4">
+                <img class="img-responsive center-block wow bounceIn" src="images/clients/wired.png" width="126" height="28" alt="Wired" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="2s" />
+            </li>
+            <li class="col-md-2 col-xs-4">
+                <img class="img-responsive center-block wow bounceIn" src="images/clients/wsj.png" width="126" height="28" alt="WSJ" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="2.5s" />
+            </li>
+            <li class="col-md-2 col-xs-4">
+                <img class="img-responsive center-block wow bounceIn" src="images/clients/techradar.png" width="126" height="28" alt="Tech Radar" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="3s" />
+            </li>
+        </ul>  
+         
+       </div> 
+     </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+<!--=============================End Our Clients============================-->        
         
         <script src="js/jquery-1.12.3.min.js"></script>
         <script src="js/bootstrap.min.js"> </script>
