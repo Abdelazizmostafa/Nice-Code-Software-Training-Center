@@ -56,4 +56,67 @@ $(document).ready(function(){
 
     }); 
     
+    // Adding NiceScroll Plugin
+    $("body").niceScroll({
+      cursorcolor:"#DEB80D",
+      cursorwidth:"6px",
+      cursorborder:"none"       
+     });
+    
+    
+   
+     
+  //Smooth Scroll to about    
+     $(".scr-about").click(function(){
+       $('html , body').animate({
+       scrollTop:$("#scr-about").offset().top-55
+    },1000);
+    }); 
+    
+    //Smooth Scroll to features    
+     $(".scr-whyus").click(function(){
+      $('html , body').animate({
+       scrollTop:$("#scr-whyus").offset().top-55
+    
+    },1000);
+    });  
+    
+    //Smooth Scroll to testiminols    
+     $(".scr-test").click(function(){
+       $('html , body').animate({
+        scrollTop:$("#scr-test").offset().top-55
+    },1000);
+    }); 
+    
+    
+    //Smooth Scroll to Courses    
+     $(".scr-cour").click(function(){
+       $('html , body').animate({
+        scrollTop:$("#scr-cour").offset().top-55
+    },1000);
+    });
+    
+    
+       //Smooth Scroll to Courses    
+     $(".scr-instr").click(function(){
+       $('html , body').animate({
+        scrollTop:$("#scr-instr").offset().top-55
+    },1000);
+    });  
+    
+       //Smooth Scroll to Courses    
+     $(".src-news").click(function(){
+       $('html , body').animate({
+        scrollTop:$("#src-news").offset().top-55
+    },1000);
+    });  
+    
+    //Smooth Scroll to Courses    
+     $(".scr-cont").click(function(){
+       $('html , body').animate({
+        scrollTop:$("#scr-cont").offset().top-55
+    },1000);
+    });
+    
+    
 });
