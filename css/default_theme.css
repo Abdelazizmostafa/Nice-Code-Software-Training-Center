@@ -32,7 +32,7 @@
     color:#DEB80D;
 }
 
-.navbar-inverse .navbar-nav > .active > a:hover, 
+ 
 .option-box .color-option,
 .Testimonials .carousel-indicators li.active,
 .carousel-indicators li
@@ -41,6 +41,7 @@
 }
 
 .dropdown-menu,
+.navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus{
  border-bottom: 2px solid #DEB80D;
