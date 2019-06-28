@@ -149,7 +149,50 @@ $(document).ready(function(){
      $('.setupstyle').attr('href', path);
 });
     
+    // Caching The Scroll Top Element
     
+    $(window).scroll(function () {
+        
+        if ($(this).scrollTop() >= 700) {
+            
+            scrollButton.show();
+            
+        } else {
+            
+            scrollButton.hide();
+        }
+    });
+    
+    // Click On Button To Scroll Top
+    
+    scrollButton.click(function () {
+        
+        $("html,body").animate({ scrollTop : 0 }, 600);
+        
+    });
+    
+});
+
+// Loading Screen
+
+$(window).load(function () {
+    
+    "use strict";
+    
+    // Loading Elements
+    
+    $(".loading-overlay .spinner").fadeOut(500, function () {
+        
+        // Show The Scroll
+
+        $("body").css("overflow", "auto");
+        
+        $(this).parent().fadeOut(500, function () {
+            
+            $(this).remove();
+        });
+    });
+});
     
     
     

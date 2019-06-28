@@ -9,6 +9,8 @@
        <link rel='stylesheet' href="css/bootstrap.css"/>
        <link rel='stylesheet' href="css/style.css"/>
        <link rel="stylesheet"  class="setupstyle" href="css/default_theme.css">
+       <link rel="stylesheet" href="css/animate.css">
+       <link rel="stylesheet" href="css/hover.css">
        <link
             href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
             rel="stylesheet"
@@ -166,7 +168,7 @@
         
 <!--=========================End Section About==============================-->
 <!--=======================Start Section Feature============================-->
-        <section class="features" id="scr-whyus">
+        <section class="features" id="scr-whyus" >
            <div class="container">
              <h2 class="bighead">Why You Choose Us</h2>
              <div class="row">
@@ -225,7 +227,7 @@
         </section>
 <!--=========================End Section Feature============================-->
 <!--==================Start Section Testimonials============================-->
-   <section class="Testimonials text-center" id="scr-test">
+   <section class="Testimonials text-center wow flipInY" id="scr-test" data-wow-duration="1s" data-wow-offset="200">
      <div class="container">
        <h2 class="bighead">What Our Clients Say</h2>
 
@@ -279,7 +281,7 @@
              <h2 class="bighead">Choose Your Courses</h2> 
              <div class="row">
                    <div class="col-lg-3 col-md-6">
-                      <div class="content text-center">
+                      <div class="content text-center  wow bounceInLeft" data-wow-duration="1s" data-wow-offset="200">
                          <h3 class="text-success">Web Development  </h3>
                          <div class="cover">
                             <div class="c-overlay">
@@ -293,7 +295,7 @@
                   </div>
                  
                    <div class="col-lg-3 col-md-6">
-                    <div class="content text-center">
+                    <div class="content text-center wow bounceInRight" data-wow-duration="1s" data-wow-offset="200">
                      <h3 class="text-primary">Mobile Development  </h3>
                      <div class="cover">
                           <div class="c-overlay">
@@ -307,7 +309,7 @@
                   </div> 
                  
                    <div class="col-lg-3 col-md-6">
-                    <div class="content text-center">
+                    <div class="content text-center wow bounceInUp" data-wow-duration="1s" data-wow-offset="200">
                      <h3 class="text-warning">Graphics Design  </h3>
                        <div class="cover">
                           <div class="c-overlay">
@@ -321,7 +323,7 @@
                   </div> 
                  
                   <div class="col-lg-3 col-md-6">
-                    <div class="content text-center">
+                    <div class="content text-center wow bounceInDown" data-wow-duration="1s" data-wow-offset="200">
                       <h3 class="text-danger"> UI/UX Desgin  </h3>
                        <div class="cover">
                          <div class="c-overlay">
@@ -346,7 +348,7 @@
                  <div class="row">
              <!--========first member==========-->
                  <div class="col-lg-3 col-md-6">
-                    <div class="member text-center">
+                    <div class="member text-center  wow fadeInUp"  data-wow-duration="2s" data-wow-offset="400">
                        <div class="item">
                          <div class="c-overlay">
                            <h4>SEO Expert</h4>
@@ -369,7 +371,7 @@
                   </div>
                 <!--========second member==========-->
                  <div class="col-lg-3 col-md-6">
-                    <div class="member text-center">
+                    <div class="member text-center  wow fadeInDown" data-wow-duration="2s" data-wow-offset="400">
                        <div class="item">
                          <div class="c-overlay">
                            <h4>Web Developer</h4>
@@ -392,7 +394,7 @@
                   </div>   
                  <!--========third  member==========-->
                  <div class="col-lg-3 col-md-6">
-                    <div class="member text-center">
+                    <div class="member text-center wow fadeInUp" data-wow-duration="2s" data-wow-offset="400">
                        <div class="item">
                          <div class="c-overlay">
                            <h4>UI/UX Designer</h4>
@@ -415,7 +417,7 @@
                   </div>   
                 <!--========fourth  member==========-->
                  <div class="col-lg-3 col-md-6">
-                    <div class="member text-center">
+                    <div class="member text-center wow fadeInDown" data-wow-duration="2s" data-wow-offset="400">
                        <div class="item">
                          <div class="c-overlay">
                            <h4>software Engineer</h4>
@@ -756,7 +758,18 @@
             </div>
         </div>
       </div>
-
+<!--=================Start Section Loading==============================-->
+        <div class="loading-overlay">
+            <div class="spinner">
+              <div class="double-bounce1"></div>
+              <div class="double-bounce2"></div>
+            </div>
+        </div>
+<!--====================End Section Loading==============================-->
+<!--====================Start Scroll To Top==============================-->
+        <div id="scroll-top">
+            <i class="fa fa-chevron-up fa-3x"></i>
+        </div>
 <!--=============================End Footer=================================-->        
         
         <script src="js/jquery-1.12.3.min.js"></script>
