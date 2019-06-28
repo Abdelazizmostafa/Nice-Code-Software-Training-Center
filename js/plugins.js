@@ -121,4 +121,47 @@ $(document).ready(function(){
      $(".color-option").toggle();
     });
     
+      
+    
+  
+    //changing color option to change themes
+     var colorLi = $(".color-option ul li"),
+        
+        scrollButton = $("#scroll-top");
+    
+    colorLi.eq(0).css("backgroundColor", "#DEB80D").end()
+    
+           .eq(1).css("backgroundColor", "#10da59").end()
+    
+           .eq(2).css("backgroundColor", "#df0fea").end()
+    
+           .eq(3).css("backgroundColor", "#ff7dc4");
+        
+    colorLi.click(function () {
+        
+        $(".setupstyle").attr("href", $(this).attr("data-value"));
+        
+    });
+//  ====================
+    
+    $(colorLi).on('click', function(){
+      var path = $(this).data('path');
+     $('.setupstyle').attr('href', path);
+});
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 });

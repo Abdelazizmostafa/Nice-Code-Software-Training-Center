@@ -1,0 +1,50 @@
+/**** Start Default Theme ****/
+
+/* Active Link */
+ .dropdown-menu > li > a:hover, 
+ .dropdown-menu > li > a:focus,
+ .carousel-indicators .active,
+ .price-table .content .cover .c-overlay button:hover,
+ .our-team .member .item .c-overlay button:hover,
+ .Newsletter .form-inline button,
+ .contact-us button,
+ .footer .fitem .t-box a:hover,
+ .option-box .gear-check,
+ .dropdown-menu .divider
+{
+    background-color:#10da59;
+}
+
+
+.footer .copyright span strong,
+.footer .fitem .socialicons li:hover,
+.our-team .member .item .c-overlay .social-links i:hover ,
+.Testimonials span,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.item .carousel-caption h2 span,
+.about span,
+.features .squre i,
+.navbar-brand span
+{
+    color:#10da59;
+}
+
+ 
+.option-box .color-option,
+.Testimonials .carousel-indicators li.active,
+.carousel-indicators li
+{
+    border: 2px solid #10da59;
+}
+
+.dropdown-menu,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus{
+ border-bottom: 2px solid #10da59;
+}
+
+
+/**** End Default Theme ****/
