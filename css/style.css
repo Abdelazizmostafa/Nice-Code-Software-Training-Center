@@ -108,10 +108,9 @@ font-weight:600;
 }
 .about h3{
 max-width: 600px;
-margin: 0 auto;
+margin:auto;
 margin-top: 25px;
-margin-bottom: 25px;    
-font-size: 25px;    
+margin-bottom: 25px;      
 }
 
 .about .info {
@@ -131,7 +130,6 @@ vertical-align: middle;
 .about .info .lead{
 margin: 0 auto;    
 max-width: 700px;    
-font-size: 25px;
 color: #888;
 margin-top: 15px;
 font-size: 22px; 
@@ -172,7 +170,7 @@ text-align: center;
 margin-bottom: 50px;
 font-weight: 600;    
 color: #756f6f;
-font-size: 35px;     
+     
 }
 .features .squre{
 margin-bottom:30px;
@@ -200,7 +198,7 @@ background-color: #EEEEEE;
 margin-bottom:30px;
 font-weight: 600;
 color: #756f6f;
-font-size: 35px;    
+     
 }
 .Testimonials .lead {
 line-height:1.5em;
@@ -249,7 +247,7 @@ padding-top:20px;
 margin-bottom:20px;
 font-weight: 600;
 color: #756f6f;
-font-size: 35px;  
+ 
 }
 .price-table .content {
 height: 300px;    
@@ -329,7 +327,7 @@ padding-top: 20px;
 .our-team .team h2{
 margin-bottom:20px;
 font-weight: 600;
-font-size: 35px; 
+  
 }
 .our-team .member {
 height: 350px;    
@@ -428,7 +426,7 @@ padding-top:20px;
 margin-bottom: 20px;
 font-weight: 600;    
 color: #756f6f;
-font-size: 35px;  
+   
 }
 .Newsletter p {
 font-size: 24px;
@@ -468,7 +466,7 @@ padding-bottom:60px
 text-align: center;
 margin-bottom: 40px;
 font-weight: 600;    
-font-size: 35px;
+ 
 }
 .statistics .stats {margin-bottom:30px}
 
@@ -486,7 +484,6 @@ padding-top: 20px;
 .skills h2{
 margin-bottom:20px;
 font-weight: 600;
-font-size: 35px;
 text-align: center;
 }
 .skills h3{
@@ -518,7 +515,7 @@ color: #ddd;
 }
 .contact-us .con-box h2{
 font-weight: 600;
-font-size: 35px;
+color: #756f6f;    
 }
 .contact-us .con-box p{
 letter-spacing: 1px;
@@ -653,7 +650,6 @@ font-weight: normal;
  
 /*===============Ending  Footer========================*/
 /*===============start  blog===========================*/
-
 #blog-area{
 padding-bottom: 30px;
 }
@@ -680,59 +676,92 @@ color: #ffffff;
 background: #f2ce30;
 background: linear-gradient(to right, #DEB80D 0%, #f2ce30 100%);
 }
-
 .blog-box .blog-image img {
-    width: 100%;
+width: 100%;
 }
-
 .blog-box .blog-details h4 a {
-    color: #ffffff;
+color: #ffffff;
 }
-
 .blog-box .blog-details p{
-    color: #ffffff;
-    letter-spacing: 1px;
+color: #ffffff;
+letter-spacing: 1px;
 }
-
 .blog-list h5 a {
 color:#333;
 font-weight: 600;
-}
- 
+} 
 .blog-list {
-    margin-bottom: 20px;
-    margin-top: 20px;
+margin-bottom: 20px;
+margin-top: 20px;
 }
-
 .blog-list:last-child {
-    margin-bottom: 0;
+margin-bottom: 0;
 }
-
 .blog-list:after {
-    content: "";
-    display: block;
-    clear: both;
+content: "";
+display: block;
+clear: both;
 }
-
 .blog-list .blog-list-image {
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-right: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+width: 100px;
+height: 100px;
+float: left;
+margin-right: 15px;
+margin-bottom: 20px;
+border-radius: 5px;
 }
 .blog-list .blog-list-image img {
 width: 100%;
 height: 100%;    
- border-radius: 5px;   
+border-radius: 5px;   
+}
+.blog-list .blog-list-meta {
+margin-bottom: 10px;
+} 
+/*===============Ending  blog==========================*/
+/*=========================================================*/
+
+
+/*=================Starting Media==========================*/
+@media(max-width:767px)
+{
+  .bighead{
+   font-size: 23px;  
+    }
+  .about h3{
+    margin-bottom: -15px;
+    font-size: 16px;
+    max-width: 330px;    
+    }
+  .about .info .lead{
+    font-size: 18px;
+    max-width: 330px;
+    line-height:1.3;  
+    }
+  .navbar-nav > li > a {
+    padding-bottom:10px;
+    padding-top: 10px;
+    font-size: 15px;
+   }
+  .dropdown-menu .divider{
+     background-color:#deb80d;
+     height: 2px;    
+    }
+  .Newsletter .form-control {
+   margin: auto;  
+  }
+  .Newsletter .form-inline button {
+     margin: 10px auto;
+    }
+  .Newsletter p{
+    font-size: 16px;
+    }
 }
 
-.blog-list .blog-list-meta {
-    margin-bottom: 10px;
-}
- 
-/*===============Ending  blog==========================*/
+
+
+
+/*=================Ending Media============================*/
 
 
 
@@ -765,6 +794,15 @@ height: 100%;
 -o-background-size:cover;
 background-size:cover;
 }
+.clients img,
+.statistics .stats,
+.testimonials .carousel-indicators li {
+    -webkit-transition:all .7s ease-in-out;
+    -moz-transition:all .7s ease-in-out;
+    -o-transition:all .7s ease-in-out;
+    transition:all .7s ease-in-out;
+}
+
 
 
 
