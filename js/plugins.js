@@ -63,8 +63,6 @@ $(document).ready(function(){
       cursorborder:"none"       
      });
     
-    
-   
      
   //Smooth Scroll to about    
      $(".scr-about").click(function(){
@@ -118,5 +116,9 @@ $(document).ready(function(){
     },1000);
     });
     
+    //toggle option box
+    $(".gear-check").click(function(){
+     $(".color-option").toggle();
+    });
     
 });

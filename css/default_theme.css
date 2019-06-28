@@ -2,35 +2,49 @@
 
 /* Active Link */
 
+ .dropdown-menu > li > a:hover, 
+ .dropdown-menu > li > a:focus,
+ .carousel-indicators .active,
+ .price-table .content .cover .c-overlay button:hover,
+ .our-team .member .item .c-overlay button:hover,
+ .Newsletter .form-inline button,
+ .contact-us button,
+ .footer .fitem .t-box a:hover,
+ .option-box .gear-check,
+ .dropdown-menu .divider
+{
+    background-color:#DEB80D;
+}
+
+
+.footer .copyright span strong,
+.footer .fitem .socialicons li:hover,
+.our-team .member .item .c-overlay .social-links i:hover ,
+.Testimonials span,
 .navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover, 
 .navbar-inverse .navbar-nav > .active > a:focus,
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus,
-.carousel-indicators .active,
-.option-box .gear-check
+.item .carousel-caption h2 span,
+.about span,
+.features .squre i,
+.navbar-brand span
 {
-    background-color:#e60024
+    color:#DEB80D;
 }
 
-.navbar-inverse .navbar-brand span,
-.about h1 span,
-.testimonials span,
-.footer h3,
-.footer .copyright span
-{
-    color:#e60024
-}
-
+.navbar-inverse .navbar-nav > .active > a:hover, 
 .option-box .color-option,
-.testimonials .carousel-indicators li.active
+.Testimonials .carousel-indicators li.active,
+.carousel-indicators li
 {
-    border: 3px solid #e60024
+    border: 2px solid #DEB80D;
 }
 
-.dropdown-menu
-{
-    border-top:3px solid #e60024
+.dropdown-menu,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus{
+ border-bottom: 2px solid #DEB80D;
 }
+
 
 /**** End Default Theme ****/
