@@ -56,6 +56,16 @@ $(document).ready(function(){
 
     }); 
     
+    
+    //Set input focus newsletter 
+    $(".form-control").on("focus",function(){
+       $(this).removeAttr("placeholder");
+     }); 
+   $(".form-control").on("blur",function(){
+     $(this). attr("placeholder","Write Your Email");
+
+    }); 
+    
     // Adding NiceScroll Plugin
     $("body").niceScroll({
       cursorcolor:"#DEB80D",
