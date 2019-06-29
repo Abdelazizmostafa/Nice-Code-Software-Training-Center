@@ -139,20 +139,41 @@ $(document).ready(function(){
         
     colorLi.click(function () {
         
-        $(".setupstyle").attr("href", $(this).attr("data-value"));
+        $("link[href*='theme']").attr("href", $(this).attr("data-value"));
         
     });
 //  ====================
+    new WOW().init();
     
-    $(colorLi).on('click', function(){
-      var path = $(this).data('path');
-     $('.setupstyle').attr('href', path);
-});
+     //need a function to  get rid of the preloader 
+
+         window.addEventListener('load' , ()=>{
+
+          const  preloader =  document.querySelector('.preload');
+          preloader.classList.add('preload-finish');
+         });
     
+      // Caching The Scroll Top Element
     
-new WOW().init();    
+        $(window).scroll(function () {
+
+            if ($(this).scrollTop() >= 700) {
+
+                scrollButton.show();
+
+            } else {
+
+                scrollButton.hide();
+            }
+        });
     
+    // Click On Button To Scroll Top
     
+    scrollButton.click(function () {
+        
+        $("html,body").animate({ scrollTop : 0 }, 600);
+        
+    });
     
     
     
