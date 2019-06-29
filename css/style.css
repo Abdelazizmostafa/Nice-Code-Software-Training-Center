@@ -31,8 +31,6 @@ cursor: pointer;
 padding: 10px;
 cursor: pointer;
 }
-
-
 /*==============end option-box=============*/
 /*==============Start Navbar===========*/
 .navbar{
@@ -112,6 +110,9 @@ height: 12px;
 .carousel-indicators .active{
 width: 13px;
 height: 13px;    
+}
+.carousel-inner > .item > img {
+width: 100%;
 }
 /*================ End Carousel================*/
 /*=========Starting About Section=============*/
