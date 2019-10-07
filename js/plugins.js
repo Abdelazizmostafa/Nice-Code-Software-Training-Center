@@ -6,7 +6,10 @@ $(document).ready(function(){
     //adding class active to links
   $(".links li a").click(function(){
      $(this).parent().addClass("active").siblings().removeClass("active");  
-    }); 
+    });
+    
+    
+    
     //Set input focus newsletter
     $("#typename").on("focus",function(){
        $(this).removeAttr("placeholder");

@@ -10,7 +10,8 @@
  .contact-us button,
  .footer .fitem .t-box a:hover,
  .option-box .gear-check,
- .dropdown-menu .divider
+ .dropdown-menu .divider,
+ .about button
 {
     background-color:#10da59;
 }
